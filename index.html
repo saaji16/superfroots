@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Froots</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio id="bg-music" src="sound/background.mp3" loop></audio>
+
+
+    <header class="site-header">
+        <div class="header-main">
+            <div class="header-logo">
+            <img src="img/logo.avif" alt="Logo">
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <div class="carousel">
+        <div class="list">
+            <div class="item active" style="--background: #6fcdee">
+                <div class="content">Spearmint</div>
+                <img src="img/fruit_mint.png" class="fruit">
+            </div>
+            <div class="item" style="--background: #c8a1f3">
+                <div class="content">Tropical</div>
+                <img src="img/fruit_tropical.png" class="fruit">
+            </div>
+            <div class="item hidden" style="--background: #fc96a9">
+                <div class="content">Watermelon</div>
+                <img src="img/fruit_watermelon.png" class="fruit">
+            </div>
+        </div>
+        <div class="mockup"></div>
+        <div class="shadow"></div>
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="column spearmint">
+            <div class="image-wrapper">
+            <img src="img/Spearmint1.png" alt="Spearmint" class="default">
+            <img src="img/Spearmint2.png" alt="Spearmint Hover" class="hover">
+            </div>
+            <div class="flavor-name">Spearmint</div>
+            <button onclick="window.location.href='spearmint.html'">Shop it now</button>
+        </div>
+
+        <div class="column tropical">
+            <div class="image-wrapper">
+            <img src="img/Tropical1.png" alt="Tropical" class="default">
+            <img src="img/Tropical2.png" alt="Tropical Hover" class="hover">
+            </div>
+            <div class="flavor-name">Tropical</div>
+            <button onclick="window.location.href='tropical.html'">Shop it now</button>
+        </div>
+
+        <div class="column watermelon">
+            <div class="image-wrapper">
+            <img src="img/Watermelon1.png" alt="Watermelon" class="default">
+            <img src="img/Watermelon2.png" alt="Watermelon Hover" class="hover">
+            </div>
+            <div class="flavor-name">Watermelon</div>
+            <button onclick="window.location.href='watermelon.html'">Shop it now</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="delicious-section">
+        <h2>Naturally Delicious</h2>
+        <div class="decorative-img">
+            <img src="img/banner1.png" alt="Banner 1" />
+            <img src="img/banner2.png" alt="Banner 2" />
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="wave-top">
+        <svg viewBox="0 0 1200 100" preserveAspectRatio="none">
+        <path id="wavePath" d="M0,30 C150,80 350,0 600,30 C850,60 1050,20 1200,30 V100 H0 V30 Z" fill="#ed2024" />
+        </svg>
+    </div>
+    <div class="wave-container">
+        <div class="scroll-texts">
+            <div class="scroll-track scroll-right">
+            <div class="scroll-text">Vegan - Vegan - Vegan - Vegan - Vegan - </div>
+            </div>
+            <div class="scroll-track scroll-left">
+            <div class="scroll-text">Sugar Free - Sugar Free - Sugar Free - Sugar F</div>
+            </div>
+            <div class="scroll-track scroll-right">
+            <div class="scroll-text">Ingredients - Ingredients - Ingredients - Ingredients - </div>
+            </div>
+            <div class="scroll-track scroll-left">
+            <div class="scroll-text">Aspartame Free - Aspartame Free - Aspartame Free - </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="hero">
+        <div class="content-box">
+        <div class="left-box">
+            <h1>BUNDLE AND SAVE</h1>
+            <p>Customize a box with your favorite flavors and<br>
+            have it shipped straight to your doorstep.</p>
+            <button onclick="window.location.href='shop.html'">Shop it now</button>
+        </div>
+        <div class="right-box">
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+    
+    
+    
+    
+    <div class="animation-container">
+        <div class="animation-column">
+            <div class="animation-image">
+            <div class="blob spearmint-blob"></div>
+            <img src="img/s1.webp" alt="Spearmint">
+            </div>
+        </div>
+
+        <div class="animation-column">
+            <div class="animation-image">
+            <div class="blob tropical-blob"></div>
+            <img src="img/t1.webp" alt="Tropical">
+            </div>
+        </div>
+
+        <div class="animation-column">
+            <div class="animation-image">
+            <div class="blob watermelon-blob"></div>
+            <img src="img/w1.webp" alt="Watermelon"">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="hero2">
+        <div class="hero2-content-box">
+        <div class="hero2-left-box">
+            <h1>NATURALLY SWEET UNREAL FLAVOURS</h1>
+            <p>spartame Free and Naturally Sweetened with Xylitol and Erythritol. Vegan, Gluten Free, Soy Free.</p>
+            <button onclick="window.location.href='shop.html'">Shop it now</button>
+        </div>
+        <div class="hero2-right-box">
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="footer-logo">
+            <img src="img/logo2.avif" alt="SuperFroots Logo" />
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-icon__item"><a class="social-icon__link" href="#">
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+        </ul>
+        <p>&copy;2025 Super Froots | All Rights Reserved</p>
+    </footer>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
